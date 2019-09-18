@@ -1,0 +1,31 @@
+.element {
+
+    &.-active,
+    &.-show-actions{
+        border: 1px dashed rgba(0, 0, 0, .4);
+        background: #efefef;
+    }
+
+    & > .-actions{
+        top: -25px;
+        display: none;
+    }
+    &.-active > .-actions,
+    &.-show-actions > .-actions{
+        display: flex;
+    }
+    
+}
+
+.sortable-drag {
+    opacity: 0;
+}
+
+// .sortable-chosen, .sortable-chosen.sortable-ghost {
+//     opacity: 0;
+// }
+
+.sortable-ghost {
+  background-color: #dadada;
+  opacity: 1;
+}
