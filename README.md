@@ -4,7 +4,7 @@
 
 ![image](/screenshots/preview.png "Preview")
 
-### GET STARTED
+### Get Started
 ```
 git clone https://github.com/crow1796/tailwind-studio.git
 cd tailwind-studio
